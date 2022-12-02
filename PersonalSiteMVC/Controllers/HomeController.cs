@@ -8,9 +8,11 @@ namespace PersonalSiteMVC.Controllers
     {
         private readonly ILogger<HomeController> _logger;
 
-        public HomeController(ILogger<HomeController> logger)
+        private readonly IConfiguration _config;
+        public HomeController(ILogger<HomeController> logger, IConfiguration config)
         {
             _logger = logger;
+            _config = config;
         }
 
         public IActionResult Index()
@@ -28,5 +30,31 @@ namespace PersonalSiteMVC.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+
+        public IActionResult Resume()
+        {
+            return View();
+        }
+
+        public IActionResult PortfolioDungeonApp()
+        {
+            return View();
+        }
+
+        public IActionResult PortfolioReact()
+        {
+            return View();
+        }
+
+        public IActionResult PortfolioStorefront()
+        {
+            return View();
+        }
+
+        public IActionResult PortfolioWebAPI()
+        {
+            return View();
+        }
+
     }
 }
