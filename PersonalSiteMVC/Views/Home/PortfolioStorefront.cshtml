@@ -1,0 +1,97 @@
+﻿@{
+    ViewData["Title"] = "Portfolio Storefront";
+}
+
+
+<!-- ======= Header ======= -->
+<header id="header" class="fixed-top header-inner-pages">
+    <div class="container d-flex align-items-center justify-content-between">
+
+        <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
+
+        <h1 class="logo"><a href="index.html">MVC StoreFront</a></h1>
+
+        <nav id="navbar" class="navbar">
+            <ul>
+                <li><a class="nav-link scrollto " href="index.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="#"><span>Project Reference</span> <i class="bi bi-chevron-down"></i></a>
+                    <ul>
+                        <li><a href="portfolio-dungeonapp.html">Dungeon Application</a></li>
+                        <li><a href="portfolio-webapi.html">Web API</a></li>
+                        <li><a href="portfolio-react.html">React SPA</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav><!-- .navbar -->
+
+    </div>
+</header><!-- End Header -->
+
+<main id="main">
+
+    <!-- ======= Breadcrumbs Section ======= -->
+    <section class="breadcrumbs">
+        <div class="container">
+
+            <div class="d-flex justify-content-end align-items-end">
+                <ol>
+                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                    <li>MVC StoreFront Details</li>
+                </ol>
+            </div>
+
+        </div>
+    </section><!-- Breadcrumbs Section -->
+    <!-- ======= Portfolio Details Section ======= -->
+    <section id="portfolio-details" class="portfolio-details">
+        <div class="container">
+
+            <div class="row gy-4">
+
+                <div class="col-lg-8">
+                    <div class="portfolio-details-slider swiper">
+                        <div class="swiper-wrapper align-items-center">
+
+                            <div class="swiper-slide">
+                                <img src="~/assets/img/temp640x480.png" alt="">
+                            </div>
+
+                            <div class="swiper-slide">
+                                <img src="~/assets/img/temp640x480.png" alt="">
+                            </div>
+
+                            <div class="swiper-slide">
+                                <img src="~/assets/img/temp640x480.png" alt="">
+                            </div>
+
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="portfolio-info">
+                        <h3>Project information</h3>
+                        <ul>
+                            <li><strong>Category</strong>: MVC</li>
+                            <li><strong>Technical Training</strong>: Centriq</li>
+                            <li><strong>Project date</strong>: 12/19/2022</li>
+                            <li><strong>Project URL</strong>: <a href="https://github.com/s-rice88">www.github.com</a></li>
+                        </ul>
+                    </div>
+                    <div class="portfolio-description">
+                        <h2>Project Objective</h2>
+                        <p>
+                            The StoreFront Application is intended to showcase the ability to build full stack web applications via a mock e-commerce site.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section><!-- End Portfolio Details Section -->
+
+</main><!-- End #main -->

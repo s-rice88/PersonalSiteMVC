@@ -17,6 +17,8 @@
     </div>
 </div>
 
+
+
 <main id="main">
 
     <!-- ======= About Section ======= -->
@@ -27,7 +29,7 @@
                 <div class="col-lg-4 ">
                     <div class="div-img-bg">
                         <div class="about-img">
-                            <img src="assets/img/seanBW.jpg" class="img-responsive" alt="me">
+                            <img src="~/assets/img/seanBW.jpg" class="img-responsive" alt="me">
                         </div>
                     </div>
                 </div>
@@ -119,42 +121,42 @@
             <div class="row portfolio-container">
 
                 <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                    <img src="assets/img/dungeonapp640x480.png" class="img-fluid" alt="">
+                    <img src="~/assets/img/dungeonapp640x480.png" class="img-fluid" alt="">
                     <div class="portfolio-info">
                         <h4>Dungeon Application</h4>
                         <p>C# App</p>
                         <a href="assets/img/dungeonapp640x480.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Dungeon Application"><i class="bx bx-plus"></i></a>
-                        <a href="portfolio-dungeonapp.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+                        <a href="@Url.Action("PortfolioDungeonApp","Home")" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6 portfolio-item filter-API">
-                    <img src="assets/img/api.png" class="img-fluid" alt="">
+                    <img src="~/assets/img/api.png" class="img-fluid" alt="">
                     <div class="portfolio-info">
                         <h4>Web API</h4>
                         <p>API</p>
                         <a href="assets/img/api.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web API"><i class="bx bx-plus"></i></a>
-                        <a href="portfolio-webapi.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+                        <a href="@Url.Action("PortfolioWebAPI","Home")" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6 portfolio-item filter-mvc">
-                    <img src="assets/img/temp640x480.png" class="img-fluid" alt="">
+                    <img src="~/assets/img/temp640x480.png" class="img-fluid" alt="">
                     <div class="portfolio-info">
                         <h4>StoreFront Application</h4>
                         <p>E-Commerce Site</p>
                         <a href="assets/img/temp640x480.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="StoreFront Project"><i class="bx bx-plus"></i></a>
-                        <a href="portfolio-storefront.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+                        <a href="@Url.Action("PortfolioStorefront","Home")" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6 portfolio-item filter-react">
-                    <img src="assets/img/temp640x480.png" class="img-fluid" alt="">
+                    <img src="~/assets/img/temp640x480.png" class="img-fluid" alt="">
                     <div class="portfolio-info">
                         <h4>React SPA</h4>
                         <p>Single Page Application Leveraging React JS</p>
                         <a href="assets/img/temp640x480.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="React Project"><i class="bx bx-plus"></i></a>
-                        <a href="portfolio-react.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+                        <a href="@Url.Action("PortfolioReact","Home")" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
                     </div>
                 </div>
 
@@ -179,11 +181,11 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="journal-info">
 
-                            <a href="http://bricepaquette.com/"><img src="assets/img/Brice_Paquette.jpg" class="img-responsive" alt="img"></a>
+                            <a href="http://bricepaquette.com/"><img src="~/assets/img/Brice_Paquette.jpg" class="img-responsive" alt="img"></a>
 
                             <div class="journal-txt">
 
-                                <h4><a href="blog-single.html">Brice Paquette</a></h4>
+                                <h4><a href="http://bricepaquette.com/">Brice Paquette</a></h4>
                                 <p class="separator">
                                     Full Stack Developer
                                 </p>
@@ -196,11 +198,11 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="journal-info">
 
-                            <a href="http://colsondonnerdev.com/"><img src="assets/img/Colson_Donner.jpg" class="img-responsive" alt="img"></a>
+                            <a href="http://colsondonnerdev.com/"><img src="~/assets/img/Colson_Donner.jpg" class="img-responsive" alt="img"></a>
 
                             <div class="journal-txt">
 
-                                <h4><a href="blog-single.html">Colson Donner</a></h4>
+                                <h4><a href="http://colsondonnerdev.com/">Colson Donner</a></h4>
                                 <p class="separator">
                                     Full Stack Developer
                                 </p>
@@ -213,11 +215,11 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="journal-info">
 
-                            <a href="http://evannoeldev.com/index.html"><img src="assets/img/Evan_Noel.jpg" class="img-responsive" alt="img"></a>
+                            <a href="http://evannoeldev.com/index.html"><img src="~/assets/img/Evan_Noel.jpg" class="img-responsive" alt="img"></a>
 
                             <div class="journal-txt">
 
-                                <h4><a>Evan Noel</a></h4>
+                                <h4><a href="http://evannoeldev.com/index.html">Evan Noel</a></h4>
                                 <p class="separator">
                                     Full Stack Developer
                                 </p>
@@ -229,11 +231,11 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="journal-info">
 
-                            <a href="http://natalielk.com/"><img src="assets/img/natalie.jpg" class="img-responsive" alt="img"></a>
+                            <a href="http://natalielk.com/"><img src="~/assets/img/natalie.jpg" class="img-responsive" alt="img"></a>
 
                             <div class="journal-txt">
 
-                                <h4><a href="blog-single.html">Natalie Kuechler</a></h4>
+                                <h4><a href="http://natalielk.com/">Natalie Kuechler</a></h4>
                                 <p class="separator">
                                     Full Stack Developer
                                 </p>
@@ -245,11 +247,11 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="journal-info">
 
-                            <a href="http://aaronfschmitt.com/"><img src="assets/img/temp.png" class="img-responsive" alt="img"></a>
+                            <a href="http://aaronfschmitt.com/"><img src="~/assets/img/temp.png" class="img-responsive" alt="img"></a>
 
                             <div class="journal-txt">
 
-                                <h4><a href="blog-single.html">Aaron Schmitt</a></h4>
+                                <h4><a href="http://aaronfschmitt.com/">Aaron Schmitt</a></h4>
                                 <p class="separator">
                                     Full Stack Developer
                                 </p>
@@ -261,11 +263,11 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="journal-info">
 
-                            <a href="http://jeffreycundiff.com/"><img src="assets/img/temp.png" class="img-responsive" alt="img"></a>
+                            <a href="http://jeffreycundiff.com/"><img src="~/assets/img/temp.png" class="img-responsive" alt="img"></a>
 
                             <div class="journal-txt">
 
-                                <h4><a href="blog-single.html">Jeffrey Cundiff</a></h4>
+                                <h4><a href="http://jeffreycundiff.com/">Jeffrey Cundiff</a></h4>
                                 <p class="separator">
                                     Full Stack Developer
                                 </p>
